@@ -26,7 +26,7 @@ Rufus is a free application for creating bootable USB drives. Download for free 
 
 Once I had downloaded & installed everything needed the actual procedure turned out to be quite simple. Using Rufus UI I selected target USB, browsed for Ubuntu ISO image file and simply hit START. The process took approximately 10 minutes.
 
-![](Week 1/Screenshots/Rufus UI.PNG)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20UI.PNG)
 
 ### Logs
 
