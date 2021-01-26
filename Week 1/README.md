@@ -19,9 +19,9 @@ I completed the exercise at home in Alppila, Helsinki. I initially started worki
 
 ## Prerequisities
 
-To replicate this exercise you will need a computer without any specific hardware, an Internet connection to download Linux Ubuntu and an USB drive with roughly 2.6 GB storage capability. Note that the USB drive will be wiped clean during the procedure.
+To replicate this exercise you will need a computer without any specific hardware, an Internet connection to download Linux Ubuntu distribution and USB drive with roughly 2.6 GB storage capabilities. Note that the USB drive will be wiped clean during the procedure.
 
-## Downloading OS & other software
+## Downloading Linux .iso file & Rufus
 
 ### Ubuntu
 
@@ -45,11 +45,15 @@ Going through the logs I could see the moment USB drive was inserted; no restart
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20log.PNG)
 
+## Launching Ubuntu
+
 ### Booting USB drive from BIOS
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/BIOS.png)
+I inserted the USB drive into my PC and navigated to BIOS by restarting the system 3 times before managing to press the correct key (it was F2). Just can't seem to remember it despite having visited BIOS a thousand times over the years...
 
-## Launching Ubuntu
+In order to launch Ubuntu I had to swap the boot order.
+
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/BIOS.png)
 
 My boot was successful and Ubuntu was up and running!
 
@@ -61,29 +65,33 @@ Using terminal command ```sudo lshw -short -sanitize``` I listed the hardware of
 
 ## Installing & comparing software
 
-Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI
+Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI. In all 3 cases the former (marked as `pre`) application was preinstalled alongside with Ubuntu, while the latter (`installed`)was manually downloaded by yours truly.
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/TerminalDownloading.png)
 &nbsp;&nbsp;&nbsp;&nbsp;
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/SoftwareGUI.png)
 
-### Mines, KMines
+### GNOME Mines (pre), kmines (installed)
 
 The iconic Minesweeper comes in many forms, and as it turns out, operating systems!
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Mines.png)
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/KMines.png)
 
-### Rhytmbox, VLC media player
+### Rhytmbox (pre), VLC media player (installed)
 
 Rhytmbox comes preinstalled with this Linux distro, but I prefer my trusty VLC media player. Sadly I had no music tracks so I skipped testing for these two. I did however try OS SFX to make sure all my drivers were working.
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rhytmbox.png)
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/VLC.png)
 
-### Calculator, Qalculator!
+### Calculator (pre), Qalculate! (installed)
 
-I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it was called, well, Calculator. I wanted to install more advanced software for my imaginary math problems, though. Qalculator! seemed to be a good choice.
+I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it was called, well, Calculator. I wanted to install more advanced software for my imaginary math problems, though. Qalculate! seemed to be a good choice.
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Calculator.png)
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Qalculator!.png)
+
+## Software licences
+
+Linux ecosystem is no stranger to the concepts of "free" and "open source", and the licences in each of my tested software reflect this. All 6 applications were operating under ``GPL-3.0`` licence. What this means is that
