@@ -94,4 +94,4 @@ I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it w
 
 ## Software licences
 
-Linux ecosystem is no stranger to the concepts of "free" and "open source", and the licences in each of my tested software reflect this. All 6 applications were operating under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) licence. What this means is that
+Linux ecosystem is no stranger to the concepts of "free" and "open source", and the licences in each of my tested software reflect this. All 6 applications were operating under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) licence. What this means is that each user is able to use, modify & share software with little limits or regulations, provided they keep track of changes in source files. It also ensures that further developed software must also release under the same licence.
