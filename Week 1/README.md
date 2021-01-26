@@ -2,7 +2,14 @@
 
 ## Table of Contents
 
-## Exercise goals, enviroment
+- [Exercise goals & enviroment](#exercise-goals-&-enviroment)
+- [Prerequisities](#prerequisities)
+- [Downloading OS & other software](#downloading-os-&-other-software)
+- [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
+- [Launching Ubuntu & downloading applications](#launching-ubuntu-&-downloading-applications)
+- [Installing & comparing software](#installing-&-comparing-software)
+
+## Exercise goals & enviroment
 
 The goal was to create a bootable USB drive for Linux, launch it, use the terminal to list working hardware and finally try out some applications.
 
@@ -20,13 +27,9 @@ To replicate this exercise you will need a computer without any specific hardwar
 
 For this exercise I chose Ubuntu 20.14 as my Linux distribution. Download for free is available [here](https://ubuntu.com/#download).
 
-![]
-
 ### Rufus
 
 Rufus is a free application for creating bootable USB drives. Download for free is available [here](https://rufus.ie/).
-
-![]
 
 ## Creating bootable USB drive using Rufus
 
@@ -46,9 +49,7 @@ Going through the logs I could see the moment USB drive was inserted; no restart
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/BIOS.png)
 
-## Launching Ubuntu & downloading applications
-
-### Ubuntu desktop
+## Launching Ubuntu
 
 My boot was successful and Ubuntu was up and running!
 
