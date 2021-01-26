@@ -67,7 +67,7 @@ Now it was time to try out software running on Linux. I tested installing some u
 &nbsp;&nbsp;&nbsp;&nbsp;
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/SoftwareGUI.png)
 
-### Mines. KMines
+### Mines, KMines
 
 The iconic Minesweeper comes in many forms, and as it turns out, operating systems!
 
@@ -76,7 +76,7 @@ The iconic Minesweeper comes in many forms, and as it turns out, operating syste
 
 ### Rhytmbox, VLC media player
 
-Rhytmbox comes preinstalled with this Linux distro, but I prefer my trusty VLC media player. Sadly I had no music tracks so I skipped testing for these two. I did however try OS sound effects to make sure all my drivers were working.
+Rhytmbox comes preinstalled with this Linux distro, but I prefer my trusty VLC media player. Sadly I had no music tracks so I skipped testing for these two. I did however try OS SFX to make sure all my drivers were working.
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rhytmbox.png)
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/VLC.png)
