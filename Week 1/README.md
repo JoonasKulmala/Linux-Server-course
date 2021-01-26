@@ -37,13 +37,13 @@ Rufus is a free application for creating bootable USB drives. Download for free 
 
 Once I had downloaded & installed everything needed the actual procedure turned out to be quite simple. Using Rufus UI I selected USB drive, browsed for Ubuntu ISO image file and simply hit 'START'. The process took approximately 10 minutes to finish. Once done I unplugged the USB drive from laptop, inserted in PC and navigated to PC's BIOS.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20UI.PNG)
+![Rufus UI](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20UI.PNG)
 
 ### Logs
 
 Going through the logs I could see the moment USB drive was inserted; no restarting or manually selecting was required.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20log.PNG)
+![Rufus Log](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20log.PNG)
 
 ## Launching Ubuntu
 
@@ -94,4 +94,4 @@ I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it w
 
 ## Software licences
 
-Linux ecosystem is no stranger to the concepts of "free" and "open source", and the licences in each of my tested software reflect this. All 6 applications were operating under ``GPL-3.0`` licence. What this means is that
+Linux ecosystem is no stranger to the concepts of "free" and "open source", and the licences in each of my tested software reflect this. All 6 applications were operating under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) licence. What this means is that
