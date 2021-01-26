@@ -44,7 +44,7 @@ Going through the logs I could see the moment USB drive was inserted; no restart
 
 ### Booting USB drive from BIOS
 
-![BIOS pic]()
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/BIOS.png)
 
 ## Launching Ubuntu & downloading applications
 
@@ -52,12 +52,37 @@ Going through the logs I could see the moment USB drive was inserted; no restart
 
 My boot was successful and Ubuntu was up and running!
 
-Using terminal command ```sudo lshw -short -sanitize``` I was able to list the current hardware.
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Desktop.png)
 
-![TERMINALS]()
+Using terminal command ```sudo lshw -short -sanitize``` I listed the hardware of my PC.
 
-### App 1
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Terminal.png)
 
-### App 2
+## Installing & comparing software
 
-### App 3
+Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI
+
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/TerminalDownloading.png)
+&nbsp;&nbsp;&nbsp;&nbsp;
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/SoftwareGUI.png)
+
+### Mines. KMines
+
+The iconic Minesweeper comes in many forms, and as it turns out, operating systems!
+
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Mines.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/KMines.png)
+
+### Rhytmbox, VLC media player
+
+Rhytmbox comes preinstalled with this Linux distro, but I prefer my trusty VLC media player. Sadly I had no music tracks so I skipped testing for these two. I did however try OS sound effects to make sure all my drivers were working.
+
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rhytmbox.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/VLC.png)
+
+### Calculator, Qalculator!
+
+I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it was called, well, Calculator. I wanted to install more advanced software for my imaginary math problems, though. Qalculator! seemed to be a good choice.
+
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Calculator.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Qalculator!.png)
