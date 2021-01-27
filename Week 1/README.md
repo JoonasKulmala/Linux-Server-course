@@ -10,7 +10,7 @@
 - [Installing and comparing software](#installing-and-comparing-software)
 - [Software licences](#software-licences)
 
-## Exercise goals & enviroment
+## Exercise goals and enviroment
 
 The goal was to create a bootable USB drive for Linux, launch it, use the terminal to list working hardware and finally try out some applications & verify their licences.
 
@@ -24,7 +24,7 @@ To replicate this exercise you will need a computer without any specific hardwar
 
 Rufus requires Windows 7 or newer version.
 
-## Downloading Linux .iso file & Rufus
+## Downloading Linux .iso file and Rufus
 
 ### Ubuntu
 
@@ -66,7 +66,7 @@ Using terminal command ```sudo lshw -short -sanitize``` I listed the hardware of
 
 ![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Terminal.png)
 
-## Installing & comparing software
+## Installing and comparing software
 
 Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI. In all 3 cases the former (marked as `pre`) application was preinstalled alongside with Ubuntu, while the latter (`installed`)was manually downloaded by yours truly.
 
