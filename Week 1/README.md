@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Exercise goals & enviroment](#exercise-goals-&-enviroment)
+- [Exercise goals & enviroment](#exercise-goals&enviroment)
 - [Prerequisities](#prerequisities)
 - [Downloading OS & other software](#downloading-os&other-software)
 - [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
