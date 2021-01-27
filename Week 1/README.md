@@ -4,9 +4,9 @@
 
 - [Exercise goals and enviroment](#exercise-goals-and-enviroment)
 - [Prerequisities](#prerequisities)
-- [Downloading Linux .iso file and other Rufus](#downloading-linux-.iso-file-and-Rufus)
+- [Downloading Linux .iso file and Rufus](#downloading-linux-.iso-file-and-Rufus)
 - [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
-- [Launching Ubuntu and downloading applications](#launching-ubuntu-and-downloading-applications)
+- [Launching Ubuntu](#launching-ubuntu)
 - [Installing and comparing software](#installing-and-comparing-software)
 - [Software licences](#software-licences)
 
