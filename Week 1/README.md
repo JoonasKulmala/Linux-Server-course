@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-- [Exercise goals & enviroment](#exercise-goals&enviroment)
+- [Exercise goals and enviroment](#exercise-goals-and-enviroment)
 - [Prerequisities](#prerequisities)
-- [Downloading OS & other software](#downloading-os&other-software)
+- [Downloading Linux .iso file and other Rufus](#downloading-linux-.iso-file-and-Rufus)
 - [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
-- [Launching Ubuntu & downloading applications](#launching-ubuntu-&-downloading-applications)
-- [Installing & comparing software](#installing&comparing-software)
-- [Software licences](#software-liceces)
+- [Launching Ubuntu and downloading applications](#launching-ubuntu-and-downloading-applications)
+- [Installing and comparing software](#installing-and-comparing-software)
+- [Software licences](#software-licences)
 
 ## Exercise goals & enviroment
 
