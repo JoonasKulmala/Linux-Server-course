@@ -1,18 +1,28 @@
-# Week 1
+# h1
 
 ## Table of Contents
 
-- [Exercise goals and enviroment](#exercise-goals-and-enviroment)
-- [Prerequisities](#prerequisities)
-- [Downloading Linux .iso file and Rufus](#downloading-linux-.iso-file-and-Rufus)
-- [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
-- [Launching Ubuntu](#launching-ubuntu)
-- [Installing and comparing software](#installing-and-comparing-software)
-- [Software licences](#software-licences)
+- [h1](#h1)
+  - [Table of Contents](#table-of-contents)
+  - [Exercise goals and enviroment](#exercise-goals-and-enviroment)
+  - [Prerequisities](#prerequisities)
+  - [Downloading Linux .iso file and Rufus](#downloading-linux-iso-file-and-rufus)
+    - [Ubuntu](#ubuntu)
+    - [Rufus](#rufus)
+  - [Creating bootable USB drive using Rufus](#creating-bootable-usb-drive-using-rufus)
+    - [Rufus setup](#rufus-setup)
+    - [Logs](#logs)
+  - [Launching Ubuntu](#launching-ubuntu)
+    - [Booting USB drive from BIOS](#booting-usb-drive-from-bios)
+  - [Installing and comparing software](#installing-and-comparing-software)
+    - [GNOME Mines (pre), kmines (installed)](#gnome-mines-pre-kmines-installed)
+    - [Rhytmbox (pre), VLC media player (installed)](#rhytmbox-pre-vlc-media-player-installed)
+    - [Calculator (pre), Qalculate! (installed)](#calculator-pre-qalculate-installed)
+  - [Software licences](#software-licences)
 
 ## Exercise goals and enviroment
 
-The goal was to create a bootable USB drive for Linux, launch it, use the terminal to list working hardware and finally try out some applications & verify their licences.
+The goal of **h1** was to create a bootable USB drive for Linux, launch it, use the terminal to list working hardware and finally try out some applications & verify their licences.
 
 Since I already had Linux on my work laptop, more precisely dual-booting Windows 10 and Ubuntu 20.14, I was more or less familiar with the procedure having completed it on multiple occasions.
 
