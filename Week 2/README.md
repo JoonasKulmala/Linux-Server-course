@@ -82,7 +82,7 @@ $ sudo apt-get install fortune
 
 Once installed the basic command was, well, ```$ fortune```. It returned the following:
 
-[fortune](Screenshots/fortune.png)
+![fortune](Screenshots/fortune.png)
 
 #### Grip
 
@@ -96,7 +96,7 @@ $ cd myrepo
 $ grip
  * Running on http://localhost:6419/
  ```
-[Grip](Screenshots/grip.png)
+![Grip](Screenshots/grip.png)
 
 I instantly fell in love with this tool! A bad habit of mine is making constant mini-pushes in order to fix minor typos or preview the changes, and now I won't have to `git commit` for each little change.
 
@@ -115,7 +115,7 @@ $ pip --version
 
 ### Final thoughts
 
-Terminal is a vital tool for Linux users, and commands can range from basic utility tools to fully fledged applications requiring no GUI to use.
+Terminal is a vital tool for any Linux user, and commands can range from basic functions such as changing directories to fully fledged applications requiring no GUI at all to use.
 
 That's all for now. See you next week in **h3**!
 
