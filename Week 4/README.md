@@ -24,7 +24,7 @@ As always you can find exercise details on Tero's [website](https://terokarvinen
 
 ## Exercises
 
-This exercise will result in a Linux server running virtually. The domain name is [http://joonaskulmala.me/](http://167.71.142.102/). Should be domain registration fail or be delayed the raw IPv4 address is [167.71.142.102](167.71.142.102).
+This exercise will result in a Linux server running virtually. The domain name is [http://joonaskulmala.me/](http://joonaskulmala.me/). Should be domain registration fail or be delayed the raw IPv4 address is [167.71.142.102](http://167.71.142.102/).
 
 ### a) Setting up your server
 
@@ -120,7 +120,7 @@ $ sudo apt-get install -y apache2
 # Repeat the process of changing Default page to custom
 ```
 
-And voilà, our remote server [167.71.142.102](167.71.142.102) is now accessable publicly!
+And voilà, our remote server [167.71.142.102](http://167.71.142.102/) is now accessable publicly!
 
 ![Homepage](Resources/homepage_public.png)
 

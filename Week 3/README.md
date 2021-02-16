@@ -2,7 +2,7 @@
 
 - [h3 | Joonas Kulmala](#h3--joonas-kulmala)
   - [Exercise goals and enviroment](#exercise-goals-and-enviroment)
-  - [Exercises - 5 of own choice](#exercises---5-of-own-choice)
+  - [Exercises - 5 of personal choice](#exercises---5-of-personal-choice)
     - [a) Example page](#a-example-page)
     - [b) Apache2 log entries](#b-apache2-log-entries)
       - [Successful (200)](#successful-200)
@@ -20,7 +20,7 @@ For more information about *HTTP response codes* you should head [here](https://
 
 The exercises can be found from Tero Karvinen's [site](https://terokarvinen.com/2020/linux-palvelimet-2021-alkukevat-kurssi-ict4tn021-3014/#h3).
 
-## Exercises - 5 of own choice
+## Exercises - 5 of personal choice
 
 ### a) Example page
 
@@ -67,7 +67,7 @@ It read the date & time of the event, HTTP method `GET` response with response c
 
 #### Unsuccessful (404)
 
-This was wasn't hard to get either. The easiest way, knowing my server had no additional pages or resources yet added, was to try navigating to a nonexistent page. Therefor I tried loading localhost/~user/_help_ and the following was logged:
+This was wasn't hard to get either. The easiest way, knowing my server had no additional pages or resources yet added, was to try navigating to a nonexistent page. Therefor I tried navigating to localhost/~user/_help_ and the following was logged:
 
 `::1 - - [09/Feb/2021:08:34:57 +0200] "GET /~user/help HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"`
 
@@ -127,3 +127,7 @@ Now navigating to **localhost** directs to `index.html`, no *~/user* required. T
 ### i)
 
 ## Summary
+
+Overall I found this week's topic quite interesting.
+
+Learning Linux is going relatively well too. I've been using terminal as opposed to GUI as much as possible to learn how to use commands to execute more and more tasks.
