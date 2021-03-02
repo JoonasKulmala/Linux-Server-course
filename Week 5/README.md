@@ -1,12 +1,15 @@
-#h5 | Joonas Kulmala
+# h5 | Joonas Kulmala
 
-- [Exercise goals and enviroment](#exercise-goals-and-enviroment)
-- [Exercises](#exercises)
-  - [a) Hello Flask!](#a-hello-flask)
-  - [b) Production Flask](#b-production-flask)
-  - [c) Flask templates](#c-flask-templates)
-  - [d) Flask user info](#d-flask-user-info)
-- [Final thoughts](#final-thoughts)
+- [h5 | Joonas Kulmala](#h5--joonas-kulmala)
+  - [Exercise goals and enviroment](#exercise-goals-and-enviroment)
+  - [Exercises](#exercises)
+    - [a) Hello Flask!](#a-hello-flask)
+    - [b) Production Flask](#b-production-flask)
+    - [c) Flask templates](#c-flask-templates)
+    - [d) Flask user info](#d-flask-user-info)
+  - [Final thoughts](#final-thoughts)
+  - [Sources](#sources)
+  - [Edit history](#edit-history)
 
 ## Exercise goals and enviroment
 
@@ -95,6 +98,8 @@ $ sudo service apache2 restart
 $ apache2ctl -M|grep -i wsgi
 ```
 
+
+
 ### c) Flask templates
 
 // TO BE ADDED
@@ -106,3 +111,13 @@ $ apache2ctl -M|grep -i wsgi
 ## Final thoughts
 
 I encountered some tough obstacles with WSGI, namely running into problems with permissions. This exercise will remain incompleted until I can better grasp the topic and return to fix all the issues.
+
+## Sources
+
+[Flask - Tero Karvinen](http://terokarvinen.com/2017/hello-python-flask-web-app-development-server-install-on-ubuntu-16-04/index.html?fromSearch=)
+
+[WSGI - Tero Karvinen](http://terokarvinen.com/2017/write-python-3-web-apps-with-apache2-mod_wsgi-install-ubuntu-16-04-xenial-every-tiny-part-tested-separately/index.html?fromSearch=)
+
+## Edit history
+
+2.3.2021 Initial commit
