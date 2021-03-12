@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang=en>
+	<head>
+		<title>Joining an Event Example</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+		<ul class=flashes>
+			{% for message in messages %}
+			<li>{{ message }}</li>
+			{% endfor %}
+		</ul>
+		{% endif %}
+		{% endwith %}
+
+		{% block body %}
+		<h1>Hello Visitor</h1>
+		{% endblock %}
+		<p></a>
+	</body>
+
+</html>
