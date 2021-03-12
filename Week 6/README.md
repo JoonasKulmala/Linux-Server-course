@@ -99,6 +99,12 @@ $ python3 DatabaseApp.py
 
 [Form](Resources/Form.png)
 
+Navigating to the parent folder we can see that a file named ```autoformed.db``` was created. Let's see if the contents were truly saved upon submitting the form. I'll open the file with **DB Browser for SQLite** application.
+
+[Structure](Resources/DBStructure.png)
+
+[Entry](Resources/DBEntry.png)
+
 ### b) Implement WSGI
 
 I still have issues with WSGI, and so must keep working on it for now. I keep running into different errors depending on how I'm messing with the settings.
