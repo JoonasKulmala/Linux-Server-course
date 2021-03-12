@@ -97,13 +97,13 @@ $ python3 DatabaseApp.py
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-[Form](Resources/Form.png)
+![Form](Resources/Form.png)
 
 Navigating to the parent folder we can see that a file named ```autoformed.db``` was created. Let's see if the contents were truly saved upon submitting the form. I'll open the file with **DB Browser for SQLite** application.
 
-[Structure](Resources/DBStructure.png)
+![Structure](Resources/DBStructure.png)
 
-[Entry](Resources/DBEntry.png)
+![Entry](Resources/DBEntry.png)
 
 ### b) Implement WSGI
 
