@@ -1,25 +1,26 @@
-# h2
+# h2 | Joonas Kulmala
 
 ## Table of Contents
 
-- [h2](#h2)
+- [h2 | Joonas Kulmala](#h2--joonas-kulmala)
   - [Table of Contents](#table-of-contents)
   - [Exercise goals and enviroment](#exercise-goals-and-enviroment)
   - [Exercises](#exercises)
-    - [a)](#a)
-      - [Successful command](#successful-command)
-      - [Unsuccessful command](#unsuccessful-command)
-    - [b)](#b)
+    - [a) Logs](#a-logs)
+      - [Log from succesful command](#log-from-succesful-command)
+      - [Log from unsuccessful command](#log-from-unsuccessful-command)
+    - [b) apt-get](#b-apt-get)
     - [c)](#c)
       - [fortune](#fortune)
       - [Grip](#grip)
       - [Pip](#pip)
     - [Final thoughts](#final-thoughts)
+  - [Sources](#sources)
+  - [Edit History](#edit-history)
 
 ## Exercise goals and enviroment
 
-![Sudo](Screenshots/Sudo.jpg)
-[Source](https://www.reddit.com/r/ProgrammerHumor/comments/93t8ie/linux_irl/):
+![Sudo](Resources/Sudo.jpg)
 
 The goal of **h2** was to learn & practice the use of Terminal in Linux OS. For starters you've got some very basic commands such as ```pwd```, ```cd``` and ```echo```.
 
@@ -27,34 +28,39 @@ The assignments can be found from Tero Karvinen's site [here](https://terokarvin
 
 ## Exercises
 
-### a)
-#### Successful command
+### a) Logs
 
-Say we're finishing for the day and wish to shutdown our machine. A successful way to perform this using the Terminal could look like this
-```bash
-$ shutdown
-```
-The command was executed successfully and the following was returned:
+I'll try causing some entries to log file named `syslog` by establishing SSH connection to my virtual server from my home laptop, both existing & nonexisting user. We should be seeing entries from both attempts.
 
-![Shutdown confirmation](Screenshots/terminal_shutdown.png)
+#### Log from succesful command
 
-The system is now due to shutdown in, by default, 60 seconds. It is possible to specify target time with ```shutdown n```. You can also cancel the command with ```shutdown -c```.
-
-#### Unsuccessful command
-
-Say we wanted to delete this week's exercise folder which is named `Week 2`. The folder is not empty as it contains this particular `README.md` file as well as `Screenshots` folder with additional files.
+Let's start with a succesful SSH connection. Note that I've blanked/swapped personal details for generic names:
 
 ```bash
-$ rmdir Week 2
+$ ssh username@hostname
+# Enter private SSH key
+# Mar 15 18:45:45 hostname sshd[151091]: Accepted publickey for <USERNAME> from <MY_HOSTNAME> port 44548 ssh2: <PUBLIC_KEY>
+# Mar 15 19:02:13 <HOSTNAME> sshd[151093]: Disconnected from user <USERNAME> <MY_HOSTNAME> port 44548
+```
+After entering my private SSH key counterpart and the remote server accepting it a connection was succesfully established. Terminating the connection also leaves a log entry.
+
+#### Log from unsuccessful command
+ 
+ Let's repeat the process above but this time user an incorrect, nonexisting username to login.
+
+ ```bash
+$ ssh WRONG-USER@hostname
+# WRONG-USER@hostname: Permission denied (publickey).
+ ```
+
+ Since **WRONG-USER** does not exist on the remote server, login is not possible.
+
+ ```bash
+# Mar 15 19:07:00 hostname sshd[151177]: Invalid user WRONG-USER from <MY_HOSTNAME> port 44720
+# Mar 15 19:07:00 hostname sshd[151177]: Connection closed by invalid user WRONG-USER <MY_HOSTNAME> port 44720 [preauth]
 ```
 
-The command failed, returning the following:
-
-![Rmdir failed](Screenshots/rmdir_unsuccessful.png)
-
-This is because the command we gave only allows deleting ***empty*** directories whereas 
-
-### b)
+### b) apt-get
 
 Let's try installing a program via Terminal. **A**dvanced **P**ackage **T**ool, APT for short is used to handle installing, updating and removing software on selected Linux distributions such as our `Ubuntu 20.14`. There are other package tools aswell, for example `pip` and `npm`. We'll also be requiring `sudo` rights for this action.
 
@@ -66,7 +72,7 @@ $ sudo apt-get install vlc
 
 A prompt to enter user's password appeared, courtesy of using `sudo`.
 
-![VLC Terminal](Screenshots/vlc_terminal.png)
+![VLC Terminal](Resources/vlc_terminal.png)
 
 Judging by the existing packages I must've had VLC installed at some point. Nevertheless, installation was a success!
 
@@ -82,7 +88,7 @@ $ sudo apt-get install fortune
 
 Once installed the basic command was, well, ```$ fortune```. It returned the following:
 
-![fortune](Screenshots/fortune.png)
+![fortune](Resources/fortune.png)
 
 #### Grip
 
@@ -96,7 +102,7 @@ $ cd myrepo
 $ grip
  * Running on http://localhost:6419/
  ```
-![Grip](Screenshots/grip.png)
+![Grip](Resources/grip.png)
 
 I instantly fell in love with this tool! A bad habit of mine is making constant mini-pushes in order to fix minor typos or preview the changes, and now I won't have to `git commit` for each little change.
 
@@ -110,14 +116,30 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
 ```bash
 $ pip --version
+# pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 ```
-```pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)```
 
 ### Final thoughts
 
 Terminal is a vital tool for any Linux user, and commands can range from basic functions such as changing directories to fully fledged applications requiring no GUI at all to use.
 
 That's all for now. See you next week in **h3**!
+
+## Sources
+
+Tero Karvinen - [h2](https://terokarvinen.com/2020/linux-palvelimet-2021-alkukevat-kurssi-ict4tn021-3014/#h2)
+
+Tero Karvinen - [Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
+
+Linux - [Viewing Linux Logs from the Command Line](https://www.linux.com/topic/desktop/viewing-linux-logs-command-line/)
+
+## Edit History
+
+15.03.2021
+
+- Recomplete task **a**
+- Format `README` for better readibility (rename tasks, restructure document)
+- Add source links
 
 
 

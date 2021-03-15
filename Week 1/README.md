@@ -141,6 +141,6 @@ Markdown - [Basix syntax](https://www.markdownguide.org/basic-syntax/)
 
 15.03.2021
 
-- Format README.md for better readibility (rename tasks, restructure document)
+- Format `README` for better readibility (rename tasks, restructure document)
 - Add source links
 - Add *final thoughts*
