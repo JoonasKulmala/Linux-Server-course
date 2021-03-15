@@ -138,7 +138,7 @@ Linux - [Viewing Linux Logs from the Command Line](https://www.linux.com/topic/d
 15.03.2021
 
 - Recomplete task **a**
-- Format `README` for better readibility (rename tasks, restructure document)
+- Format `README` for better readability (rename tasks, restructure document)
 - Add source links
 
 
