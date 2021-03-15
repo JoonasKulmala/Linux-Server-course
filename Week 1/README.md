@@ -54,13 +54,13 @@ Rufus is a free application for creating bootable USB drives. Download for free 
 
 Once I had downloaded & installed everything needed the actual procedure turned out to be quite simple. Using Rufus UI I selected USB drive, browsed for Ubuntu ISO image file and simply hit 'START'. The process took approximately 10 minutes to finish. Once done I unplugged the USB drive from laptop, inserted into my PC and navigated to BIOS.
 
-![UI](Resources/Rufus UI.png)
+![Rufus UI](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Rufus%20UI.PNG)
 
 #### Rufus logs
 
-Going through the logs I could see the moment USB drive was inserted; no restarting or manually selecting was required. The log file is available [here](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/rufus.log).
+Going through the logs I could see the moment USB drive was inserted; no restarting or manually selecting was required. The log file is available [here](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/rufus.log).
 
-![Rufus Log](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rufus%20log.PNG)
+![Rufus Log](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Rufus%20log.PNG)
 
 #### Booting USB drive from BIOS
 
@@ -68,46 +68,46 @@ I inserted the USB drive into my PC and navigated to BIOS by restarting the syst
 
 In order to launch Ubuntu I had to swap the boot order.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/BIOS.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/BIOS.png)
 
 My boot was successful and Ubuntu was up and running!
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Desktop.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Desktop.png)
 
 ### b) List used hardware
 
 Using terminal command ```sudo lshw -short -sanitize``` I listed the hardware of my PC.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Terminal.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Terminal.png)
 
 ### c)  Installing and comparing software
 
 Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI. In all 3 cases the former (marked as `pre`) application was preinstalled alongside with Ubuntu, while the latter (`installed`)was manually downloaded by yours truly.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/TerminalDownloading.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/TerminalDownloading.png)
 &nbsp;&nbsp;&nbsp;&nbsp;
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/SoftwareGUI.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/SoftwareGUI.png)
 
 #### GNOME Mines (pre), kmines (installed)
 
 The iconic Minesweeper comes in many forms, and as it turns out, operating systems!
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Mines.png)
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/KMines.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Mines.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/KMines.png)
 
 #### Rhytmbox (pre), VLC media player (installed)
 
 Rhytmbox comes preinstalled with this Linux distro, but I prefer my trusty VLC media player. Sadly I had no music tracks so I skipped testing for these two. I did however try OS SFX to make sure all my drivers were working.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Rhytmbox.png)
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/VLC.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Rhytmbox.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/VLC.png)
 
 #### Calculator (pre), Qalculate! (installed)
 
 I'm fairly sure every OS out there comes with a calculator. In Ubuntu 20.14 it was called, well, Calculator. I wanted to install more advanced software for my imaginary math problems, though. Qalculate! seemed to be a good choice.
 
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Calculator.png)
-![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Screenshots/Qalculator!.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Calculator.png)
+![](https://github.com/JoonasKulmala/Linux-Server-course/blob/main/Week%201/Resources/Qalculator!.png)
 
 ### d) Software licences
 
