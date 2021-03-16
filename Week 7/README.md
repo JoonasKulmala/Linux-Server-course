@@ -6,6 +6,10 @@
     - [Webbikehitystä](#webbikehitystä)
     - [Työntekijät](#työntekijät)
     - [Uusi komento](#uusi-komento)
+    - [Koodajan koti](#koodajan-koti)
+      - [Python](#python)
+      - [Bash](#bash)
+      - [Node.js](#nodejs)
   - [Final thoughts](#final-thoughts)
   - [Sources](#sources)
   - [Edit history](#edit-history)
@@ -130,6 +134,62 @@ hostname -i
 $ sudo chmod 755 ipos
 ```
 
+### Koodajan koti
+
+*Hello World* in Python, Bash, Node.js in Pekka Hurme's home directory
+
+```bash
+$ cd
+$ cd ..
+# Pekka Hurme's username is phurme
+$ cd phurme
+```
+
+#### Python
+
+```bash
+$ sudoedit heimaailma.py
+```
+
+```bash
+# Python 
+print('hei maailma')
+```
+
+#### Bash
+
+```bash
+$ sudoedit heimaailma.sh
+```
+
+```bash
+#!/bin/bash
+echo "hei maailma"
+```
+
+#### Node.js
+
+```bash
+$ sudoedit heimaailma.js
+```
+
+```bash
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('hei maailma');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
 ## Final thoughts
 
 Not available.
@@ -137,5 +197,7 @@ Not available.
 ## Sources
 
 Tero Karvinen - [Arvioitava laboratorioharjoitus – Linux palvelimet ict4tn021-8 maanantai – alkukevät 2018 – 5 op](http://terokarvinen.com/2018/03/12/arvioitava-laboratorioharjoitus-linux-palvelimet-ict4tn021-8-maanantai-alkukevat-2018-5-op/index.html?fromSearch=)
+
+Linuxize - [How to Add User to Group in Linux](https://linuxize.com/post/how-to-add-user-to-group-in-linux/)
 
 ## Edit history
