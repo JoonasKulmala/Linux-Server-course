@@ -5,11 +5,17 @@
   - [Exercises](#exercises)
     - [Webbikehitystä](#webbikehitystä)
     - [Työntekijät](#työntekijät)
+      - [New employess](#new-employess)
+      - [Homepages](#homepages)
     - [Uusi komento](#uusi-komento)
     - [Koodajan koti](#koodajan-koti)
       - [Python](#python)
       - [Bash](#bash)
       - [Node.js](#nodejs)
+    - [Etusivun uutinen](#etusivun-uutinen)
+    - [Kaksi sivua](#kaksi-sivua)
+    - [Etäkäyttöä](#etäkäyttöä)
+  - [Excluded exercise tasks](#excluded-exercise-tasks)
   - [Final thoughts](#final-thoughts)
   - [Sources](#sources)
   - [Edit history](#edit-history)
@@ -98,6 +104,7 @@ $ python3 HelloFlask.py
 
 ### Työntekijät
 
+#### New employess
 ```bash
 # New user group
 $ sudo groupadd exployee
@@ -111,6 +118,11 @@ $ sudo useradd -m -g employee -c "Einari Vähäkäähkä" evähäkäähkä
 $ sudo useradd -m -g employee -c "Eija Vähäkäähkä" evähäkäähkä
 # useradd: user 'evähäkäähkä' already exists
 $ sudo useradd -m -g employee -c "Eija Vähäkäähkä" evähäkäähkä1
+```
+
+#### Homepages
+```bash
+$ sudo cp -r home_html /home/${USER}
 ```
 
 ### Uusi komento
@@ -189,6 +201,22 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+
+### Etusivun uutinen
+
+### Kaksi sivua
+
+### Etäkäyttöä
+
+```bash
+$ sudo apt-get install ufw
+$ sudo ufw allow ssh
+```
+
+## Excluded exercise tasks
+- ### Robobot
+- ### Päivitykset
+
 
 ## Final thoughts
 
