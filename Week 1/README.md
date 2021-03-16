@@ -68,11 +68,11 @@ I inserted the USB drive into my PC and navigated to BIOS by restarting the syst
 
 In order to launch Ubuntu I had to swap the boot order.
 
-![](Resources/BIOS.png)
+<img src="Resources/BIOS.png" width="700">
 
 My boot was successful and Ubuntu was up and running!
 
-![](Resources/Desktop.png)
+<img src="Resources/Desktop.png" width="700">
 
 ### b) List device hardware
 
@@ -82,15 +82,17 @@ Using this terminal command I listed the hardware of my PC.
 $ sudo lshw -short -sanitize
 ```
 
-![](Resources/Terminal.png)
+<img src="Resources/Terminal.png" width="700">
 
 ### c)  Installing and comparing software
 
 Now it was time to try out software running on Linux. I tested installing some using both Terminal & Software GUI. In all 3 cases the former (marked as `preinstalled`) application was preinstalled alongside with this particular version of Ubuntu, while the latter (`downloaded`)was manually downloaded by yours truly.
 
-![](Resources/TerminalDownloading.png)
+<img src="Resources/TerminalDownloading.png" width="700">
+
 &nbsp;&nbsp;&nbsp;&nbsp;
-![](Resources/SoftwareGUI.png)
+
+<img src="Resources/SoftwareGUI.png" width="700">
 
 #### GNOME Mines (preinstalled), KMines (downloaded)
 

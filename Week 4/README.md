@@ -11,6 +11,8 @@
       - [Purchasing domain name](#purchasing-domain-name)
     - [b) Analyzing invading attempts from logs](#b-analyzing-invading-attempts-from-logs)
     - [Final thoughts](#final-thoughts)
+  - [Sources](#sources)
+  - [Edit History](#edit-history)
 
 ## Exercise goals and enviroment
 
@@ -165,4 +167,20 @@ Now I have absolutely no idea what caused this. As far as I could tell there's n
 
 ### Final thoughts
 
-This was by far the best exercise so far. Not only did I learn a ton about setting up my own server but also got a keep using *Terminal* and become better one command at a time.
+This was by far the best exercise so far. So much good, practical knowledge gained from this week's topic. From the basics of setting up up a server to renting cloud services, purchasing domains and so on.
+
+## Sources
+
+Tero Karvinen - [h4](https://terokarvinen.com/2020/linux-palvelimet-2021-alkukevat-kurssi-ict4tn021-3014/#h4)
+
+Tero Karvinen - [First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS](http://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/index.html?fromSearch=)
+
+Digital Ocean - [Home](https://www.digitalocean.com/)
+
+Gandi - [Home](https://www.gandi.net/en)
+
+## Edit History
+
+15.03.2021
+
+- Add source links

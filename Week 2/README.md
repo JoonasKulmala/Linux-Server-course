@@ -10,7 +10,7 @@
       - [Log from succesful command](#log-from-succesful-command)
       - [Log from unsuccessful command](#log-from-unsuccessful-command)
     - [b) apt-get](#b-apt-get)
-    - [c)](#c)
+    - [c) CLI software](#c-cli-software)
       - [fortune](#fortune)
       - [Grip](#grip)
       - [Pip](#pip)
@@ -20,7 +20,7 @@
 
 ## Exercise goals and enviroment
 
-![Sudo](Resources/Sudo.jpg)
+<img src="Resources/Sudo.jpg" width="300">
 
 The goal of **h2** was to learn & practice the use of Terminal in Linux OS. For starters you've got some very basic commands such as ```pwd```, ```cd``` and ```echo```.
 
@@ -76,7 +76,9 @@ A prompt to enter user's password appeared, courtesy of using `sudo`.
 
 Judging by the existing packages I must've had VLC installed at some point. Nevertheless, installation was a success!
 
-### c)
+### c) CLI software
+
+Let's try out some easy Command Line Interface programs.
 
 #### fortune
 
@@ -104,7 +106,7 @@ $ grip
  ```
 ![Grip](Resources/grip.png)
 
-I instantly fell in love with this tool! A bad habit of mine is making constant mini-pushes in order to fix minor typos or preview the changes, and now I won't have to `git commit` for each little change.
+I instantly fell in love with this tool! A bad habit of mine is making constant mini-pushes in order to fix minor typos or preview the changes.
 
 #### Pip
 
